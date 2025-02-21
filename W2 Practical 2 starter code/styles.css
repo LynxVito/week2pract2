@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(194, 183, 205);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(99, 70, 215);
+}
+
+#page-title a {
+    font-size: 1.8em;
+    color: rgb(62, 168, 255);
+    font-family: "Brush Script MT", cursive;
+}
+
+#content-area {
+    background-color: white;
+    margin: 0 3em 0 3em;
+}
+
+#page-title {
+    display: inline-block;
+    width: 15em;
+}
+
+#date {
+    display: inline-block;
+    text-align: right;
+}
