@@ -36,3 +36,31 @@ a {
     display: inline-block;
     text-align: right;
 }
+
+#main-nav a {
+    color: rgb(168, 117, 222);
+    display: block;
+    padding: 1rem 6vw;
+}
+
+#main-nav li {
+    display: inline-block;
+    color: white;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#main-nav li a:hover {
+    color: rgb(82, 209, 255);
+}
+
+main {
+    display: inline-block;
+    margin: 0 10em 0 0;
+}
+
+aside {
+    display: inline-block;
+    /* vertical-align: ; */
+}
