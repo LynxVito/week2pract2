@@ -30,37 +30,90 @@ a {
 #page-title {
     display: inline-block;
     width: 15em;
+    padding: 0 10vw;
 }
 
 #date {
     display: inline-block;
     text-align: right;
+    padding: 0 0 0 24vw;
 }
 
 #main-nav a {
-    color: rgb(168, 117, 222);
+    color: white;
     display: block;
-    padding: 1rem 6vw;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+#main-nav ul {
+    padding-left: 0;
 }
 
 #main-nav li {
     display: inline-block;
-    color: white;
-    border-color: black;
-    border-width: 1px;
-    border-style: solid;
+    background-color: rgb(194, 183, 205);
+    width: 25%;
+    box-sizing: border-box;
 }
 
 #main-nav li a:hover {
-    color: rgb(82, 209, 255);
+    background-color: rgb(161, 147, 174);
 }
 
 main {
     display: inline-block;
-    margin: 0 10em 0 0;
+    width: 75%;
+    padding: 0 0 0 30px;
+    /* margin: 0 10em 0 0; */
 }
 
 aside {
-    display: inline-block;
-    /* vertical-align: ; */
+    float: right;
+    vertical-align: top;
+    padding: 30px 50px 0 0;
+}
+
+@media screen and (max-width:768px) {
+    body {
+        background-color: white;
+    }
+
+    aside section {
+        display: inline-block;
+        margin: 0 30px;
+    }
+
+    #news-panel div{
+        display: inline-block;
+    }
+
+    #news-panel div .story-thumbnail {
+        width: 24vw;
+        height: 12vh;
+    }
+
+    #content-area {
+        margin: 0;
+    }
+
+    header, main, aside {
+        margin: 0 3em 0 3em;;
+    }
+
+    #date {
+        text-align: left;
+        padding: 0;
+        margin: 0;
+    }
+
+    #page-title {
+        display: block;
+        padding: 0;
+    }
+
+    aside {
+        float: none;
+        padding: 0;
+    }
 }
